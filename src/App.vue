@@ -16,7 +16,7 @@
         <ul class="block-list__list">
           <li v-for="t in tickers" :key="t.title" @click="select(t)" class="block-list__item">
             <div>{{ t.title }}</div>
-            <button @click.stop="deleteTodo(t)">delete</button>
+            <button @click.stop="deleteTodo(t)">Delete</button>
           </li>
         </ul>
       </div>
