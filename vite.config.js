@@ -6,4 +6,3 @@ export default defineConfig({
   plugins: [vue()],
 });
 
-module.exports = { publicPath: "/todo/" };
